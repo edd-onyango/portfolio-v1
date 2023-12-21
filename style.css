@@ -1,3 +1,71 @@
+* {
+    /* for all elements */
+    box-sizing: border-box;
+}
+
+/* color theme and variable */
+:root {
+    --accentColor: #ad3869;
+    --headerColor: #444444;
+    --paragraphColor: #626262;
+    --ease: all 0.4s ease;
+    --radius: 6px;
+}
+
 body {
-    background-color: #111F41;
+    margin:0;
+    padding: 0px;
+    font-family: "Inter" san-serif;
+    color: var(--headerColor);
+    padding: 0px 20px;
+    background-color: #0F172A;
+}
+
+/* for all icons */
+.icons {
+    width: 24px;
+    height: 24px;
+    margin: 0px 3px;
+}
+
+/* to apply colors */
+.accentColor {
+    color: var(--accentColor);
+
+}
+
+.paragraph {
+    color: var(--paragraphColor);
+}
+
+a {
+    color: var(--headerColor);
+    /* remove default underlining */
+    text-decoration: none;
+}
+
+/* to center elements */
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* to group sections and add margins */
+section {
+    margin: 150px 0px;
+}
+
+/* for background images */
+.backgroundFix {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* to create total separation between elements */
+.flex-space-btw {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

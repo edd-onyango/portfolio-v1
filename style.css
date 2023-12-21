@@ -140,3 +140,27 @@ section {
     }
 }
 
+/* About Section */
+.aboutSection .aboutImg {
+    height: 350px;
+    width: 60%;
+    margin-left: auto;
+    border-radius: 30px;
+}
+
+@media (max-width: 1000px) {
+    .aboutSection .aboutImg {
+        width: 80%;
+    }
+
+    @media (max-width: 800px) {
+        .aboutSection{
+            display:block;
+        }
+        .aboutSection .aboutImg {
+            display: none;
+        }
+    }
+}
+
+

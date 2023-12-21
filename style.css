@@ -163,4 +163,10 @@ section {
     }
 }
 
+/* experience section */
+.experience-section .resume {
+    margin-top: 30px;
+    display: block;
+}
+
 

@@ -126,3 +126,16 @@ section {
 .padChild {
     padding: 25px;
 }
+
+/* Nav Section */
+.topHeader .logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width:500px) {
+    .topHeader .flex-space-btw {
+        display: block;
+        text-align: center;
+    }
+}

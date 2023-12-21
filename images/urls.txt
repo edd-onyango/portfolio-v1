@@ -1,7 +1,1 @@
-https://github.com/Emmaccen/blogPortfolio/blob/main/images/aboutImg.png
-https://github.com/Emmaccen/blogPortfolio/blob/main/images/icon.svg
-https://github.com/Emmaccen/blogPortfolio/blob/main/images/klasha.png
-https://github.com/Emmaccen/blogPortfolio/blob/main/images/learning-platform.png
-https://github.com/Emmaccen/blogPortfolio/blob/main/images/linkIcon.svg
-https://github.com/Emmaccen/blogPortfolio/blob/main/images/rise.png
-https://github.com/Emmaccen/blogPortfolio/blob/main/images/trendCred.png
+https://vanilla-portfolio-website.netlify.app/images/linkIcon.svg

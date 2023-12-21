@@ -69,3 +69,60 @@ section {
     justify-content: space-between;
     align-items: center;
 }
+
+/* to apply equal spacing beyween elements */
+.grid2,
+.grid3 {
+    display: grid;
+    /* place in twos */
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.grid3 {
+    /* place in three */
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* to create responsive in-line elements */
+.flex-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+
+/* Wrap around elements and space on both sides */
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* for fancy scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+/*Scroll bar track  */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--accentColor);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--headerColor);
+}
+
+.padChild {
+    padding: 25px;
+}

@@ -15,7 +15,7 @@
 body {
     margin:0;
     padding: 0px;
-    font-family: "Inter" san-serif;
+    font-family: "Inter", sans-serif;
     color: var(--headerColor);
     padding: 0px 20px;
     background-color: #0F172A;
@@ -70,7 +70,7 @@ section {
     align-items: center;
 }
 
-/* to apply equal spacing beyween elements */
+/* to apply equal spacing between elements */
 .grid2,
 .grid3 {
     display: grid;
@@ -139,3 +139,4 @@ section {
         text-align: center;
     }
 }
+
